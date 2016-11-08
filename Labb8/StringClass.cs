@@ -9,18 +9,7 @@ namespace Labb8
     class StringClass
     {
 
-        public string Concat(string[] stringArray, char seperator)
-        {
-            string ret = "";
-
-            foreach (string s in stringArray)
-            {
-                ret += s + seperator;
-            }
-            ret = ret.Remove(ret.Length - 1);
-            return ret;
-
-        }
+      
 
 
     }
