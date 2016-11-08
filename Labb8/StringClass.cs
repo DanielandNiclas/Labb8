@@ -6,16 +6,11 @@ using System.Threading.Tasks;
 
 namespace Labb8
 {
-
-
-    class Runtime
+    class StringClass
     {
+
       
 
-        public void Start()
-        {
-             
-    }
-    }
 
+    }
 }
