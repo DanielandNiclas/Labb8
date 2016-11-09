@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace Labb8
 {
-    class FloatClass
+    class Product
     {
+        public int ID { get; set; }
+
+        public string Name { get; set; }
+
+        public float Price { get; set; }
     }
 }
