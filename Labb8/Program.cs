@@ -16,8 +16,9 @@ namespace Labb8
             runtime.StartNumber();
             Console.WriteLine("Press any key to access the mainmenu");
             Console.ReadKey(); // Just to stop the program to not exit without input.
-            UI.MainMenu();
-            UI.MainMenuInput();
+                UI.MainMenu();
+                UI.MainMenuInput();
+            
 
         }
     }
